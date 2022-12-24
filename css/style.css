@@ -1,0 +1,790 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Background Color */
+body {
+  background-color:#FFF1E6;
+}
+/*Layout of Portfolio background page*/
+
+.lightbackground {
+  background-color:#FFF1E6;
+  color: #7F6F7B;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/* STYLE TEXT */
+
+/*headers in overlay text*/
+  .numHeader {
+    font-weight: bold;
+    font-size: 21px;
+    font-family: 'League Spartan', sans-serif;
+    margin-top: 6%;
+    text-align: left;
+    margin-left: 25%;
+    list-style-type: none;
+  }
+
+/*body of overlay text*/
+  .extra {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 19px;
+    text-align: left;
+    margin-left: 30%;
+    margin-top: 4%;
+  }
+
+  /*My name title of website*/
+#MyName {
+  padding-top: 120px;
+  color: #645079;
+  margin-top: 58px;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 75px;
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+
+#HelloThere{
+  font-size: 180px;
+  color: 	#f2ebe3;
+  font-family: 'Playfair Display', serif;
+  margin-top: -18%;
+  font-weight: 300px;
+  margin-left: -1%;
+}
+
+
+#SkillWord{
+  font-size: 180px;
+  color: 	#f2ebe3;
+  font-family: 'Playfair Display', serif;
+  margin-top: -10%;
+  font-weight: 330px;
+  margin-left: -0.5%;
+}
+
+
+/*3 words to describe me under name*/
+#traits {
+  color: #7F6F7B;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 7%;
+  margin-left: 280px;
+  margin-right: 280px;
+  font-weight: 350;
+}
+#traits2 {
+  color: #7F6F7B;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 7%;
+  margin-left: 280px;
+  margin-right: 280px;
+  font-weight: 350;
+}
+
+.wrapper{
+  background-color: #FFF1E6;
+  padding-bottom: 23%;
+}
+
+.mediaSocials{
+  position: absolute;
+  padding-top: 3%;
+  top: 70%;
+  margin-bottom: 55%;
+  left: 50%;
+  transform: translate(-53%, -50%);
+}
+.LinkSocials{
+  position: absolute;
+  padding-top: 7%;
+  top: 370%;
+  margin-bottom: 55%;
+  left: 50%;
+  underline: none;
+  transform: translate(-53%, -50%);
+  color: #93858f;
+}
+.Linkz{
+  color: #93858f;
+  underline: none;
+  font-size: 22px;
+  text-decoration: none;
+}
+#bottom{
+  background-color:#f2ebe3;
+  padding-top: 120px;
+  padding-bottom: 300px;
+}
+.Links{
+  liststyle: none;
+  margin: 10px 50px;
+  display: inline-block;
+  font-size: 15px;
+  padding: 12px 15px;
+  padding: 1em;
+  color: #93858f;
+  border: 2px solid #b5a6b1;
+  border-radius: 5%;
+  transition: .5s;
+}
+
+.socials{
+  liststyle: none;
+  margin: 10px 30px;
+  display: inline-block;
+  font-size: 26px;
+  padding: 12px 15px;
+  color: #93858f;
+  border: 2px solid #b5a6b1;
+  border-radius: 50%;
+  transition: .5s;
+}
+.socials:hover{
+  color:  #534650;
+  background-color: #b5a6b1;
+  transition: .5s;
+}
+.Links:hover{
+  color:  #534650;
+  background-color: #b5a6b1;
+  transition: .5s;
+}
+.aboutmetext:hover {
+  transform: scale(1.1, 1.1);
+  transition: transform 0.2s ease-in-out;
+}
+/*the box including the portrait and overlay text*/
+
+.card {
+  background-color:#f2ebe3;
+  padding-top: 120px;
+  padding-bottom: 300px;
+}
+.cardProjects {
+  background-color:#f2ebe3;
+  padding: 2em;
+  margin-left: 55%;
+  margin-right:-5%;
+  margin-top: -33%;
+  border-radius: 3%;
+  font-size: 18px;
+  border: 1px solid  #93858f;
+  color: #93858f;
+  font-family: 'League Spartan', sans-serif;
+  text-align: left;
+  letter-spacing: 2px;
+  line-spacing:2px;
+}
+.cardProjects1 {
+  background-color:#f2ebe3;
+  color: #93858f;
+  padding: 2em;
+  margin-left: 45%;
+  margin-top: -36%;
+  border-radius: 3%;
+  font-size: 18px;
+  border: 1px solid  #93858f;
+  font-family: 'League Spartan', sans-serif;
+  text-align: left;
+  letter-spacing: 2px;
+  line-spacing:2px;
+}
+#line{
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top: -4%;
+  margin-bottom: 5%;
+}
+
+  
+/*My portrait*/ 
+.portrait {
+  position: relative;
+  display: block;
+  width: 40%;
+  margin-left: 60px;
+  margin-top: 50px;
+  height: 25%;
+  border: 12px solid white;
+  border-radius: 6%;
+  overflow: hidden;
+}
+/*The overlay text*/
+.Overlay {
+ font-family: 'League Spartan', sans-serif;
+  display: block;
+  margin-left: 35%;
+  margin-top: -49%;
+  margin-right: auto;
+  text-align: center;
+  width: 60%;
+  height: 48%;
+  border-radius: 3%;
+  color: #93858f;
+  letter-spacing: 2px;
+  font-size: 20px;
+  position: absolute;
+}
+
+/*Text overlays portrait when hovered over*/
+
+/*Title of overlay text "snapshot..."*/
+.Overlay .header {
+  font-family: 'League Spartan', sans-serif;
+  margin-top: 30px;
+  font-style: bold;
+  font-weight: 200px;
+  font-size: 30px;
+  left: 100%;
+  margin-left: -22%;
+}
+#header2{
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 200px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: #93858f;
+  left: 100%;
+  margin-left: 60%;
+}
+#header4{
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 350;
+  margin-bottom: 10px;
+  font-size: 30px;
+  padding-top: 20px;
+  margin-top:10px;
+  color: #93858f;
+  margin-left: 33%;
+}
+
+}
+.welcomeSentence {
+  padding-top: 20px;
+  padding-bottom: 2px;
+  color: #7F6F7B;
+  text-align: center;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 21px;
+  letter-spacing: 1.3px;
+}
+
+.welcomeSentence2 {
+  padding-top: 30px;
+  padding-bottom: 70px;
+  color: #7F6F7B;
+  text-align: center;
+   font-family: 'League Spartan', sans-serif;
+  font-size: 21px;
+  letter-spacing: 1.3px;
+}
+/*Quotation underneath portait*/
+#Skills{
+  color: #645079;
+  font-family: 'League Spartan', sans-serif;
+  margin-left: 13%;
+  font-size: 38px;
+  padding-top: 7%;
+}
+
+
+/*Signature of quotation*/
+#signature {
+color: #E6D9D2;
+ font-family: 'League Spartan', sans-serif;
+text-align: center;
+font-size: 19px;
+letter-spacing: 1.2px;
+font-weight: 900;
+margin-top: 0;
+margin-bottom: 16px;
+margin-left: 10%;
+margin-right: 10%;
+font-style: italic; 
+}
+
+/*Space below the portrait turns purple*/
+#purpleSection {
+  padding: 40px;
+  line-height: 1.6;
+  background-color: #645079;
+  color: #E6D9D2;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/*All images with white border*/
+img {
+  border: 12px solid white;
+  border-radius: 3%;
+}
+
+/*Welcome paragraph about me under quote*/
+#intro {
+  padding-top: 23px;
+line-height: 1.6;
+ font-family: 'League Spartan', sans-serif;
+font-size: 20px;
+ margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+
+.pagetitle {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 450;
+  color: #645079;
+  padding-top: 120px;
+  padding-bottom: -10px;
+}
+
+/* My portfolio page titles*/
+.projectTitle {
+  font-size: 21px;
+  padding-top: 70px;
+  padding-bottom: 3px;
+  text-align: center;
+   font-family: 'League Spartan', sans-serif;
+}
+
+#topProjectTitle {
+  font-size: 30px;
+  font-weight: 100px;
+  padding-top: 20%;
+  margin-left: 62%;
+  font-family: 'League Spartan', sans-serif;
+}
+#topProjectTitle1 {
+  font-size: 30px;
+  font-weight: 100px;
+  padding-top: 5%;
+  margin-left: 55%;
+  font-family: 'League Spartan', sans-serif;
+}
+/* Link to projects*/
+.projlink {
+  padding-top: 15px;
+  margin-bottom: 40px;
+}
+
+#projectImage1 {
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: 60%;
+  text-align: center;
+   width: 500px;
+  height: 325px;
+}
+#projectImage2 {
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: 60%;
+  text-align: center;
+   width: 500px;
+  height: 325px;
+}
+#projectImage3 {
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: 60%;
+  text-align: center;
+  width: 500px;
+  height: 325px;
+}
+#projectImage4 {
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: 60%;
+  text-align: center;
+   width: 500px;
+  height: 325px;
+}
+#projectImage5 {
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: 60%;
+  text-align: center;
+  width: 500px;
+  height: 325px;
+}
+
+#projectImage6 {
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: 60%;
+  text-align: center;
+  width: 320px;
+  height: 360px;
+}
+/* My journey page awards*/
+#Awardssection {
+  padding-top: 80px;
+  font-size: 35px;
+  color:  #645079;
+  padding-bottom: 6px;
+  letter-spacing: 1.2px;
+  text-align: center;
+  font-weight: 2px;
+  font-family: 'League Spartan', sans-serif;
+}
+
+/* First award title*/
+#FLASF1 {
+  padding-top: 27px;
+  font-size: 20px;
+   font-family: 'League Spartan', sans-serif;
+  text-decoration: bold;
+  color:#E6D9D2;
+}
+/* All other awards titles*/
+.awardtitle {
+  margin-top: 50px;
+  margin-bottom: -3%;
+  font-size: 25px;
+  font-family: 'League Spartan', sans-serif;
+  margin-left: 31%;
+  color: #93858f;
+  
+}
+
+.award {
+  margin-top: 12px;
+  margin-left: 2%;
+  list-style-type: circle;
+}
+
+/* Awards paragraphs*/
+#Awardssec {
+  background-color:#f2ebe3;
+  color: #645079;
+  text-align: left;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 17px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+/* List on my journey w bullet points*/
+#aboutmeUL {
+  list-style-type: circle;
+  color: #645079;
+}
+/* Images in project section */
+
+.projimg {
+  max-width: 60%;
+  margin: 1px;
+}
+
+
+
+
+/* STYLE NAV BAR */
+
+.navbar {
+  list-style-type: none;
+  background-color: ;
+  overflow: hidden;
+  padding: 2em;
+  font-family: 'League Spartan', sans-serif;
+  text-align: right;
+  font-size: 19px;
+  padding-top: 25px;
+   padding-bottom: 20px;
+  
+}
+.navbar2 {
+  list-style-type: none;
+  background-color: #f2ebe3;
+  overflow: hidden;
+  padding: 2em;
+  font-family: 'League Spartan', sans-serif;
+  text-align: right;
+  font-size: 19px;
+  padding-top: 25px;
+   padding-bottom: 20px;
+  
+}
+.linav {
+  display: inline;
+}
+.linav2 {
+  display: inline;
+}
+
+.nava {
+  color: #645079;
+  font-size: 22px;
+  font-family: 'League Spartan', sans-serif;
+  padding: 3em;
+  padding-top: 2em;
+  text-align: center;
+  text-decoration: none;
+}
+.nava2 {
+  font-weight: 00px;
+  font-family: 'League Spartan', sans-serif;
+  color:  #645079;
+  font-size: 22px;
+  padding: 2em;
+  text-align: center;
+  text-decoration: none;
+}
+.card2{
+  border: 4px solid #dedede;
+  color:#7F6F7B;
+  border-radius: 3%;
+  margin-left: 7%;
+  margin-right: 68%;
+  margin-top: 5%;
+  padding-top: 2%;
+  padding-bottom: 6%;
+}
+#Programminghead{
+  margin-bottom: 8%;
+}
+
+.card3{
+  border: 4px solid #dedede;
+  color:#7F6F7B;
+  border-radius: 3%;
+  margin-left: 35%;
+  margin-right: 40%;
+  margin-top: -15%;
+  padding-top: 2%;
+  padding-bottom: 6%;
+}
+.card4{
+  border: 4px solid #dedede;
+  color:#7F6F7B;
+  border-radius: 3%;
+  margin-left: 63%;
+  margin-right: 9%;
+  margin-top: -15%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+.ExtraLinks{
+background-color:#f2ebe3;
+  
+}
+
+.button {
+  font-family: 'League Spartan', sans-serif;
+  background-color:#f2ebe3;
+  border: 2px solid #90898e;
+  color: #90898e;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  margin-left: 50%;
+  cursor: pointer;
+}
+
+#SkillSection{
+  margin-bottom:-10%;
+  padding-bottom: 10%;
+}
+#Developmenthead{
+  margin-bottom: 8%;
+}
+#Strengthshead{
+  margin-bottom: 8%;
+}
+
+.nava:hover {
+  background-color: #b2a3c2;
+}
+
+.timelinetitle {
+  font-size: 22px;
+  left: 50px;
+  text-align: center;
+  font-family: 'League Spartan', sans-serif;
+  margin-bottom: 2px;
+}
+/* Timeline on Journey Page*/
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  border: 2px solid #E6D9D2;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+/*Placing container around content and to the right of timeline*/
+.containerRight {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 60%;
+  margin-left: 50%;
+  margin-right: 60%;
+}
+.containerLeft {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 60%;
+  margin-left: -10%;
+}
+/*Placing container around content and to the left of timeline*/
+
+
+/*circles on the timeline*/
+
+.containerRight::after {
+  content: '';
+  position: absolute;
+  width: 22px;
+  height:22px;
+  right: 97%;
+  background-color:#f2ebe3;
+  color: #93858f;
+  background-color: #b2a3c2;
+  border: 4px solid #645079;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+  margin-top: 10%;
+}
+
+.containerLeft::after {
+  content: '';
+  position: absolute;
+  width: 22px;
+  height:22px;
+  left: 98%;
+  background-color: #b2a3c2;
+  border: 4px solid #645079;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+  margin-top: 10%;
+}
+
+.containerLeft::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 10%;
+  width: 0;
+  z-index: 1;
+  margin-top: 8%;
+  margin-left: 10%;
+  right: 3%;
+  border: medium solid #645079b9;
+  border-width: 20px 0 20px 20px;
+  border-color: transparent transparent transparent #645079c7;
+}
+
+.containerRight::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 10%;
+  width: 0;
+  margin-top: 8%;
+  margin-right: 47%;
+  z-index: 1;
+  left: 3%;
+  border: medium solid #645079c7;
+  border-width: 20px 20px 20px 0;
+  border-color: transparent #645079c7 transparent transparent;
+}
+
+.aboutMeText {
+  padding: 20px;
+  margin-top:10px;
+  background-color:#f2ebe3;
+  color: #90898e;
+  border: 1px solid #93858f;
+  text-align: center;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  line-height:1.2;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+  /* Full-width containers */
+  .containerLeft {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+.containerRight {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+/* Make sure that all arrows are pointing leftwards */
+  .container::before {
+    left: 60px;
+    border: medium solid #645079c7;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #645079c7 transparent transparent;
+  }
+
+#timelinetitle1 {
+  font-size: 20px;
+}
+/* Make sure all circles are at the same spot */
+
+/* Make all right containers behave like the left ones */
+
