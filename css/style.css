@@ -17,7 +17,7 @@ body {
   font-family: 'League Spartan', sans-serif;
   font-size: 18px;
   margin-top: 0;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   margin-left: 15%;
   margin-right: 15%;
 }
@@ -45,7 +45,7 @@ body {
   }
 
   /*My name title of website*/
-#MyName {
+.MyName {
   padding-top: 120px;
   color: #645079;
   margin-top: 58px;
@@ -57,9 +57,9 @@ body {
 
 #HelloThere{
   font-size: 180px;
+  madding-bottom: -5px;
   color: 	#f2ebe3;
   font-family: 'Playfair Display', serif;
-  margin-top: -18%;
   font-weight: 300px;
   margin-left: -1%;
 }
@@ -69,7 +69,7 @@ body {
   font-size: 180px;
   color: 	#f2ebe3;
   font-family: 'Playfair Display', serif;
-  margin-top: -10%;
+  margin-top: -8%;
   font-weight: 330px;
   margin-left: -0.5%;
 }
@@ -80,13 +80,14 @@ body {
   color: #7F6F7B;
   font-family: 'League Spartan', sans-serif;
   font-size: 26px;
-  text-align: center;
   margin-top: 50px;
   margin-bottom: 7%;
-  margin-left: 280px;
-  margin-right: 280px;
+  margin-left: 10%;
+  margin-right: 10%;
   font-weight: 350;
+  text-align: center;
 }
+
 #traits2 {
   color: #7F6F7B;
   font-family: 'League Spartan', sans-serif;
@@ -101,25 +102,18 @@ body {
 
 .wrapper{
   background-color: #FFF1E6;
-  padding-bottom: 23%;
 }
 
 .mediaSocials{
-  position: absolute;
-  padding-top: 3%;
-  top: 70%;
-  margin-bottom: 55%;
-  left: 50%;
-  transform: translate(-53%, -50%);
+  text-align: center;
+  margin-top: 10%;
+  
 }
 .LinkSocials{
-  position: absolute;
-  padding-top: 7%;
-  top: 370%;
+  margin-top: 10%;
   margin-bottom: 55%;
-  left: 50%;
   underline: none;
-  transform: translate(-53%, -50%);
+  text-align: center;
   color: #93858f;
 }
 .Linkz{
@@ -176,7 +170,7 @@ body {
 .card {
   background-color:#f2ebe3;
   padding-top: 120px;
-  padding-bottom: 300px;
+  padding-bottom: 160px;
 }
 .cardProjects {
   background-color:#f2ebe3;
@@ -217,9 +211,8 @@ body {
   
 /*My portrait*/ 
 .portrait {
-  position: relative;
   display: block;
-  width: 40%;
+  width: 38%;
   margin-left: 60px;
   margin-top: 50px;
   height: 25%;
@@ -229,19 +222,17 @@ body {
 }
 /*The overlay text*/
 .Overlay {
- font-family: 'League Spartan', sans-serif;
-  display: block;
-  margin-left: 35%;
-  margin-top: -49%;
-  margin-right: auto;
+  font-family: 'League Spartan', sans-serif;
+  align-items: right;
   text-align: center;
   width: 60%;
-  height: 48%;
+  margin-top: -48%;
+  margin-left: 36%;
+  padding-left: 17px;
   border-radius: 3%;
   color: #93858f;
   letter-spacing: 2px;
   font-size: 20px;
-  position: absolute;
 }
 
 /*Text overlays portrait when hovered over*/
@@ -254,7 +245,7 @@ body {
   font-weight: 200px;
   font-size: 30px;
   left: 100%;
-  margin-left: -22%;
+  margin-left: -18%;
 }
 #header2{
   font-family: 'League Spartan', sans-serif;
@@ -273,7 +264,7 @@ body {
   padding-top: 20px;
   margin-top:10px;
   color: #93858f;
-  margin-left: 33%;
+  text-align: center;
 }
 
 }
@@ -296,7 +287,7 @@ body {
   font-size: 21px;
   letter-spacing: 1.3px;
 }
-
+/*Quotation underneath portait*/
 #Skills{
   color: #645079;
   font-family: 'League Spartan', sans-serif;
@@ -435,7 +426,7 @@ font-size: 20px;
 #projectImage5 {
   display: block;
   margin-top: 2px;
-  margin-bottom: 55px;
+  margin-bottom: 25px;
   margin-left: auto;
   margin-right: 60%;
   text-align: center;
