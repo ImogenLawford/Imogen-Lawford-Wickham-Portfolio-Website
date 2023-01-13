@@ -1,4 +1,3 @@
-
 *{
   margin: 0px;
   padding: 0px;
@@ -177,7 +176,7 @@ body {
   padding: 2em;
   margin-left: 55%;
   margin-right:-5%;
-  margin-top: -33%;
+  margin-top: -28%;
   border-radius: 3%;
   font-size: 18px;
   border: 1px solid  #93858f;
@@ -191,8 +190,9 @@ body {
   background-color:#f2ebe3;
   color: #93858f;
   padding: 2em;
-  margin-left: 45%;
-  margin-top: -36%;
+  margin-left: 55%;
+  margin-right: -5%;
+  margin-top: -32%;
   border-radius: 3%;
   font-size: 18px;
   border: 1px solid  #93858f;
@@ -360,7 +360,7 @@ font-size: 20px;
   padding-top: 70px;
   padding-bottom: 3px;
   text-align: center;
-   font-family: 'League Spartan', sans-serif;
+  font-family: 'League Spartan', sans-serif;
 }
 
 #topProjectTitle {
@@ -374,7 +374,8 @@ font-size: 20px;
   font-size: 30px;
   font-weight: 100px;
   padding-top: 5%;
-  margin-left: 55%;
+  margin-left: 62%;
+  margin-bottom: 2%;
   font-family: 'League Spartan', sans-serif;
 }
 /* Link to projects*/
@@ -775,7 +776,4 @@ background-color:#f2ebe3;
 #timelinetitle1 {
   font-size: 20px;
 }
-/* Make sure all circles are at the same spot */
-
-/* Make all right containers behave like the left ones */
 
