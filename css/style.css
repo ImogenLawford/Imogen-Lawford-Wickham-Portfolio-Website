@@ -44,7 +44,7 @@ body {
   }
 
   /*My name title of website*/
-.MyName {
+#MyName {
   padding-top: 120px;
   color: #645079;
   margin-top: 58px;
